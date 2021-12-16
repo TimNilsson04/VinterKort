@@ -1,93 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
         <title>Vinterkort</title>
-        <style>
-            html,
-            body{
-                margin: 0;
-                padding: 0;
-                height: 100%;
-            }
-            body {
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                flex-direction: column;
-                font-family: 'Amatic SC', cursive;
-                
-            }
-            .card {
-                margin-top: auto;
-                padding: 1rem;
-                position: relative;
-                
-            }
-            .card-content {
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                top: 0;
-                left: 0;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                
-            }
-            .card2{
-                width: 100%;
-                height: 100%;
-               top: 10%;
-               left: 10%;
+          </head>
 
-        }
-            .card > img {
-                object-fit: cover;
-                height: 50vh;
-                
-            }
-            h1 {
-                font-size: 4rem;
-                letter-spacing: .2rem;
-                color: #fff;
-            }
-            footer {
-                margin-top: auto;
-
-            }
-            .shadow-5 {
-                box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12),
-                    0 2px 2px rgba(0, 0, 0, 0.12), 0 4px 4px rgba(0, 0, 0, 0.12),
-                    0 8px 8px rgba(0, 0, 0, 0.12),
-                    0 16px 16px rgba(0, 0, 0, 0.12);
-                    
-            }
-            body {
-                background-color: aqua;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="card shadow-5">
-            <img src="Vinterkort-3-scaled.jpg" alt="Ice" />
-            <div class="card-content">
-                <h1>Slut På Året!</h1>
+          <body class="card">
+            
+              
+          <div class="flip-card">
+            <div class="flip-card-inner">
+              <div class="flip-card-front">
+                <div class="box-shadow">
+                <img src="Vinterkort-3-scaled.jpg" alt="Avatar" style="width:650px;height:500px;">
+              </div>
             </div>
-        </div>
-        <footer>
-            <p>
-                Photo by
-                <a href="https://yogadevi.se/yoga/vinterkort-jarfalla/"> YogaDevi
-                </a>
-            </p>
-            <h2>Tim Nilsson</h2>
+              <div class="flip-card-back">
+                <h1>Winter Holidays!</h1> 
+                <h2>Jens </h2>
+              </div>
+            </div>
+          </div>
+        
+        
+          <footer>
+            
+
         </footer>
     </body>
 </html>
